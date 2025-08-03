@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WANTED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Important for responsiveness -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .text-block {
+            max-width: 90%;
+            width: 600px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 90%;
+            max-width: 320px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .link-button {
+            padding: 12px 24px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .link-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Optional: Add a bit of spacing for small screens */
+        @media (max-width: 480px) {
+            .link-button {
+                width: 100%;
+                max-width: 280px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Help to bring him to justice</h1>
+
+    <div class="text-block">
+        <p>Allegedly responsible for the war crimes of starvation as a method of warfare and of intentionally directing an attack against the civilian population; and the crimes against humanity of murder, persecution, and other inhumane acts.
+		</br></br>
+		Use Augmented Reality to affix this Wanted poster anywhere in the world using your iPhone or iPad. Then take a picture and share it. 
+		</br></br>
+		Tap on the Affix button below</p>
+    </div>
+
+    <img src="images/neta_01.jpg" alt="Example image">
+
+    <a rel="ar" href="ARrepo/Wanted_Neta_Poster.usdz" class="link-button">AFFIX</a>
+
+</body>
+</html>
